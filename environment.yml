@@ -1,6 +1,16 @@
 name: example-environment
+channels:
+  - defaults
+  - conda-forge
 dependencies:
   - python
   - numpy
+  - jupyter
+  - ipykernel
+  - scipy
+  - pandas
+  - ffmpeg
+  - matplotlib
+  - networkx=2.*
   - pip:
     - vpython
